@@ -1,0 +1,88 @@
+/* Navbar.css */
+
+/* Custom Navbar Styling */
+.navbar-custom {
+    background-color: #FF5722; /* Bright orange color */
+    color: white;
+    padding: 10px 20px;
+}
+
+.logo {
+    font-weight: bold;
+    color: #FFF;
+    font-size: 1.5rem;
+}
+
+.brand-logo {
+    font-family: Arial, sans-serif;
+    color: yellow;
+    margin-right: 5px;
+}
+
+.navbar-nav .nav-link {
+    color: white !important;
+    font-weight: bold;
+    padding: 8px 12px;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FFC107 !important; /* Light orange on hover */
+}
+
+.search-input {
+    border: 1px solid white;
+    color: white;
+    background-color: transparent;
+}
+
+.search-btn {
+    background-color: white;
+    color: #FF5722;
+    border: none;
+}
+
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba%28155,155,155, 0.5%29' stroke-width='2' d='M4 7h22M4 15h22M4 23h22' /%3E%3C/svg%3E");
+}
+
+/* Additional Styling for Visual Elements */
+.navbar-custom .container-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-brand .brand-logo {
+    font-size: 1.25rem;
+    color: yellow;
+    margin-right: 8px;
+}
+
+/* Circle icons or decorative elements */
+.navbar-custom::after {
+    content: '';
+    position: absolute;
+    right: 10px;
+    top: 15px;
+    height: 8px;
+    width: 8px;
+    background-color: #FFCDD2;
+    border-radius: 50%;
+}
+
+.navbar-custom::before {
+    content: '';
+    position: absolute;
+    right: 30px;
+    top: 25px;
+    height: 8px;
+    width: 8px;
+    background-color: #4CAF50;
+    border-radius: 50%;
+}
