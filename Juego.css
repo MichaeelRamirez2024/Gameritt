@@ -1,0 +1,23 @@
+.juego-container {
+    background-color: white; /* Fondo blanco para el contenedor del juego */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil para dar efecto de elevación */
+    border-radius: 0.5rem; /* Esquinas redondeadas */
+    padding: 1rem; /* Espaciado interno */
+    height: 95%; /* Altura del contenedor, ajusta si es necesario */
+    display: flex; /* Habilitar flexbox para organización interna */
+    flex-direction: column; /* Organizar los hijos en columna */
+  }
+  
+  .juego-container h2 {
+    font-size: 1.25rem; /* Tamaño de fuente del título */
+    font-weight: 600; /* Peso de fuente seminegrita */
+    margin-bottom: 0.5rem; /* Margen inferior para separar del contenido */
+  }
+  
+  .juego-container iframe {
+    width: 100%; /* Ancho completo del contenedor */
+    height: 80%; /* Altura del iframe, ajusta según tus necesidades */
+    border: none; /* Elimina el borde del iframe */
+    flex-grow: 1; /* Permitir que el iframe ocupe el espacio restante */
+  }
+  
