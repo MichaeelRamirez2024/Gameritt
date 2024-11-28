@@ -1,0 +1,63 @@
+.card-list {
+  display: flex;
+  flex-direction: row; /* Asegura que las tarjetas se dispongan en filas */
+  flex-wrap: wrap; /* Permite que las tarjetas se muevan a otra línea si no caben */
+  gap: 8px; /* Espacio entre las tarjetas */
+  padding: 10px;
+  margin-right: 8px;
+  margin-bottom: 2%;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f16923; /* Color naranja */
+  padding: 10px;
+  border-radius: 26px;
+  width: 193px; /* Ancho de la tarjeta */
+  height: 189px; /* Alto de la tarjeta */
+  margin: 1px;
+}
+
+.screen {
+  background-color: #934a2e; /* Color marrón */
+  width: 179px; /* Ancho de la pantalla */
+  height: 150px; /* Alto de la pantalla */
+  border-radius: 25px;
+  margin-bottom: 10px;
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+}
+
+.play-button {
+  background-color: #ffb500; /* Color amarillo */
+  border-color: black;
+  border-width: 1px; /* Asegura que el borde sea visible */
+  border-style: solid;
+  color: black;
+  font-weight: bold;
+  padding: 5px 12px;
+  border-radius: 9px;
+  cursor: pointer;
+}
+
+.circle {
+  background-color: #934a2e; /* Color marrón */
+  border-radius: 100%;
+}
+
+.large {
+  width: 30px;
+  height: 27px;
+}
+
+.small {
+  width: 40px;
+  height: 38px;
+}
